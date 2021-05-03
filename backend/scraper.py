@@ -2,6 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 
 #scraping functions
+#commit
+
 def meghalaya():
 	#initialize the data dictionary
 	data = {}
