@@ -197,7 +197,7 @@ class FinalScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children:[
               Container(
-                child: Text(data['Active'],style: TextStyle(fontSize: 50,fontWeight: FontWeight.w300,color: Colors.deepOrange[300],fontFamily: 'PoppinsLight'),),
+                child: Text(data['Active'].toString(),style: TextStyle(fontSize: 50,fontWeight: FontWeight.w300,color: Colors.deepOrange[300],fontFamily: 'PoppinsLight'),),
               ),
               Container(
                 child: Text('Active',style: TextStyle(fontSize:  20,fontWeight: FontWeight.w300,color: Colors.deepOrange[300],fontFamily: 'PoppinsLight'),textAlign: TextAlign.left,),
@@ -208,7 +208,7 @@ class FinalScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children:[
               Container(
-                child: Text(data['Deceased'],style: TextStyle(fontSize: 50,fontWeight: FontWeight.w300,color: Colors.red[300],fontFamily: 'PoppinsLight'),),
+                child: Text(data['Deceased'].toString(),style: TextStyle(fontSize: 50,fontWeight: FontWeight.w300,color: Colors.red[300],fontFamily: 'PoppinsLight'),),
               ),
               Container(
                 child: Text('Deceased',style: TextStyle(fontSize:  20,fontWeight: FontWeight.w300,color: Colors.red[300],fontFamily: 'PoppinsLight'),textAlign: TextAlign.left,),
@@ -219,7 +219,7 @@ class FinalScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children:[
               Container(
-                child: Text(data['Recovered'],style: TextStyle(fontSize: 50,fontWeight: FontWeight.w300,color: Colors.green[300],fontFamily: 'PoppinsLight'),),
+                child: Text(data['Recovered'].toString(),style: TextStyle(fontSize: 50,fontWeight: FontWeight.w300,color: Colors.green[300],fontFamily: 'PoppinsLight'),),
               ),
               Container(
                 child: Text('Recovered',style: TextStyle(fontSize:  20,fontWeight: FontWeight.w300,color: Colors.green[300],fontFamily: 'PoppinsLight'),textAlign: TextAlign.left,),
@@ -230,7 +230,7 @@ class FinalScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children:[
               Container(
-                child: Text(data['Positive'],style: TextStyle(fontSize: 50,fontWeight: FontWeight.w300,color: Colors.blue[300],fontFamily: 'PoppinsLight'),),
+                child: Text(data['Positive'].toString(),style: TextStyle(fontSize: 50,fontWeight: FontWeight.w300,color: Colors.blue[300],fontFamily: 'PoppinsLight'),),
               ),
               Container(
                 child: Text('Total Confirmed',style: TextStyle(fontSize:  20,fontWeight: FontWeight.w300,color: Colors.blue[300],fontFamily: 'PoppinsLight'),textAlign: TextAlign.left,),

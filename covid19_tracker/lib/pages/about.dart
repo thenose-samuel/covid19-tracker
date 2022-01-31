@@ -105,7 +105,7 @@ class AboutPage extends StatelessWidget {
                             fontFamily: 'Poppins'),
                       ),),
                   Container(
-                    margin: EdgeInsets.only(left: 123, top: 10, bottom: 10),
+                    margin: EdgeInsets.only(left: 130, top: 10, bottom: 10),
                     child: ElevatedButton(
                       onPressed: () async {
                         var urlLaunchable = await canLaunch(githubSite);
